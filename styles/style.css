@@ -1,0 +1,146 @@
+.info {
+    background-color: coral;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+    color: beige;
+}
+body {
+    margin: 0px;
+	padding: 0px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+.title {
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+header h1 {
+    color: coral;
+}
+
+header li {
+    display: inline-block;
+    color: coral;
+}
+
+.carboidrato {
+    display: flex;
+    border-top: 4px solid coral;
+    border-bottom: 4px solid coral;
+    padding: 60px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.carboidrato h1 {
+    font-size: 48px;
+    color: coral
+}
+
+.carboidrato p {
+    font-size: 18px;
+    display: inline-block;
+    font-style: italic;
+ }
+ 
+.proteina {
+    max-width: 960px;
+    margin: 20px 10px 60px 10px;
+    color: rgb(100, 65, 65);
+    margin: 40px auto;
+}
+.proteina h1{
+    font-size: 48px;
+}
+
+.proteina-container {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.proteina-item {
+    display: inline-block;
+    flex: 1 1 175px;
+    margin: 10px;
+    border-top: 10px solid  rgb(100, 65, 65);
+}
+.proteina-item h2 {
+    font-size: 3em;
+    color: beige;
+    background: rgb(100, 65, 65);;
+    padding: 60px 20px;
+}
+.vitaminas {
+    background-color: beige;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.vitaminas-itens {
+    flex: 1 1 260px;
+    border: 2px solid rgb(72, 125, 72);
+    padding: 20px;
+    margin: 10px;
+}
+.vitaminas-itens p {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid rgb(72, 125, 72);
+    border-bottom: 4px solid rgb(72, 125, 72);
+}
+.vitaminas-itens h2 {
+    font-size: 3em;
+    color: rgb(72, 125, 72);
+    text-align: center;
+    margin-top: 20px;
+}
+.vitaminas-itens ul {
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+.vitaminas a {
+max-width: 300px;
+display: block;
+margin: 20px auto;
+border: 4px solid;
+color: #222222;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 2.25em;
+padding: 15px 0;
+text-align: center;
+}
+.footer {
+display: flex;
+background: coral;
+height: 100px;
+align-items: center;
+font-size: 28px;
+color: beige;
+justify-content: center;
+}
