@@ -1,60 +1,78 @@
-.info {
-    background-color: coral;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    position: relative;
-    color: beige;
-}
 body {
     margin: 0px;
 	padding: 0px;
+    font-family: sans-serif;
 }
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: beige;
-}
-.title {
-    display: flex;
-    flex-wrap: wrap;
-}
-a {
-    font-size: 1.25em;
-    padding: 10px;
+.info {
+    background-color: coral;
+    color: beige;
+
+    .info-sub {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .info-sub a {
+        color: beige;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
 }
 
-header h1 {
-    color: coral;
-}
+.menu {
+    background-color: rgb(100, 65, 65);
+    
+    .menu-principal {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-header li {
-    display: inline-block;
+    .menu-title a {
+        color: beige;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu-option nav li {
+        display: inline-block;
+        color: beige;
+        padding: 10px;
+    }
+
+}
+.title-content {
+    font-size: 48px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
     color: coral;
 }
 
 .carboidrato {
     display: flex;
-    border-top: 4px solid coral;
-    border-bottom: 4px solid coral;
-    padding: 60px;
+    border-top: 3px solid rgb(100, 65, 65);
+    border-bottom: 4px solid rgb(100, 65, 65);
+    padding: 20px;
     margin: 0 auto;
     max-width: 960px;
 }
-
-.carboidrato h1 {
+.carboidrato a {
+    color: coral;
     font-size: 48px;
-    color: coral
-}
-
-.carboidrato p {
-    font-size: 18px;
-    display: inline-block;
-    font-style: italic;
+    font-weight: 500;
  }
- 
+ .carboidrato p {
+    font-size: 18px;
+ }
+
 .proteina {
     max-width: 960px;
     margin: 20px 10px 60px 10px;
